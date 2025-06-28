@@ -1,0 +1,17 @@
+{
+  "name": "blackbox-challenge-api",
+  "version": "1.0.0",
+  "description": "Reverse engineering challenge API backend mimicking mysterious endpoints.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test/test.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {},
+  "author": "vinith",
+  "license": "MIT"
+}
