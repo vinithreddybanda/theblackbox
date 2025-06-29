@@ -17,7 +17,7 @@ This project is a reverse engineering challenge featuring a set of undocumented 
 | POST /zap        | `{ "data": "Z@p-123!" }`  | `{ "result": "Z@p-!" }`         | Removes all digits |
 | POST /alpha      | `{ "data": "Alpha123" }`  | `{ "result": true }`             | True if first char is a letter |
 | POST /alpha      | `{ "data": "9lives" }`    | `{ "result": false }`            | False if first char is not a letter |
-| POST /fizzbuzz   | `{ "data": [1,2,3,4] }`    | `{ "result": [1,2,3,4] }`        | Returns list if even length |
+| POST /fizzbuzz   | `{ "data": [1,2,3,4] }`    | `{ "result": false }`        | Returns false list if even length |
 | POST /fizzbuzz   | `{ "data": [3,5,15] }`     | `{ "result": false }`            | Returns false if odd length or not array |
 | POST /fizzbuzz   | `{ "data": "FizzBuzz" }`  | `{ "result": false }`            | Content does not matter |
 
